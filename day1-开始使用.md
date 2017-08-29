@@ -1,4 +1,4 @@
-## Webpack使用记录day1
+## Webpack开始使用
 
 ### `Webpack.config.js`的编写
 - 在webpack版本 1.*中 output可以直接写路径，在2.*里就要引入path.
