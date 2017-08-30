@@ -125,6 +125,11 @@ loader的使用有三种方法，分别是：
 使用`--module-bind`指定loader，如果后缀和loader一样，直接写就好了，比如`jade`表示`.jade`文件用`jade-loader`处理，如果不一样，则需要显示指定，如`css=style!css`表示分别使用`css-loader`和`style-loader`处理`.css`文件。
 
 - - -
+### 常用loader
+- Babel-loader
+- CSS-loader
+- Less-loader
+- - -
 ### 总结
 
 `loader`本质上做的是一个`anything` **to** `JS`的转换
